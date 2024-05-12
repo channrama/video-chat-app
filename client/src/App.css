@@ -1,0 +1,90 @@
+/* client/src/App.css */
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__videos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-display {
+  margin: 10px;
+}
+
+.video {
+  border: 2px solid #333;
+  max-width: 300px;
+}
+
+.chat-window {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: 400px;
+}
+
+.messages {
+  list-style-type: none;
+  padding: 0;
+}
+
+.messages li {
+  margin-bottom: 10px;
+}
+
+.main__message_container {
+  margin-top: 10px;
+}
+
+.main__message_container input {
+  padding: 8px;
+  width: 80%;
+  margin-right: 5px;
+}
+
+.main__message_container button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main__message_container button:hover {
+  background-color: #0056b3;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
